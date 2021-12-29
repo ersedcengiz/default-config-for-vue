@@ -1,0 +1,29 @@
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import "themes/themes";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+body {
+    background-color: var(--background-color);
+}
+
+.home {
+    @include themify($themes) {
+        background-color: themed("primary-color");
+        color: themed("secondary-color");
+        border-bottom: 5px solid themed("secondary-color");
+    }
+}
+
+#LangPanel {
+    .langspan-content {
+        .langa {
+            cursor: pointer;
+            margin-left: 2px;
+            img {
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+$themes: ( red: ( primary-color: #bc2121, secondary-color: #e6b800, navlink-text-color: #fff, infobar-bg-color: #f0f0f0, logo-text-color: var(--logo-text-color), logo-text-colorhover: var(--logo-text-colorhover), lmenugroup-title-color: var(--lmenugroup-title-color), lmenulink-text-color: var(--lmenulink-text-color), ), blue: ( primary-color: #204e57, secondary-color: #fc0, navlink-text-color: #fff, infobar-bg-color: #fc0, logo-text-color: var(--logo-text-color), logo-text-colorhover: var(--logo-text-colorhover), lmenugroup-title-color: var(--lmenugroup-title-color), lmenulink-text-color: var(--lmenulink-text-color), ), black: ( primary-color: #222, secondary-color: #e6b800, navlink-text-color: #fff, infobar-bg-color: #e6b800, logo-text-color: var(--logo-text-color), logo-text-colorhover: var(--logo-text-colorhover), lmenugroup-title-color: var(--lmenugroup-title-color), lmenulink-text-color: var(--lmenulink-text-color), ), green: ( primary-color: #008025, secondary-color: #fff200, navlink-text-color: #fff, infobar-bg-color: #fff200, logo-text-color: var(--logo-text-color), logo-text-colorhover: var(--logo-text-colorhover), lmenugroup-title-color: var(--lmenugroup-title-color), lmenulink-text-color: var(--lmenulink-text-color), ), );
+[data-theme="tLight"] {
+    --background-color: #fff;
+}
+
+[data-theme="tDark"] {
+    --background-color: #222;
+}
