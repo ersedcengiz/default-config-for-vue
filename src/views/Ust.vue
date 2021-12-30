@@ -1,5 +1,5 @@
 <template>
-  <header class="container mt-3 mb-2  p-3  shadow-sm">
+  <header>
   <Headers />
   </header>
 </template>

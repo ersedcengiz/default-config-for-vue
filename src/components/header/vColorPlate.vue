@@ -36,3 +36,13 @@ export default {
     }
   }
 }</script>
+<style lang="scss">
+.themebuttons{
+  div{
+    float:left;
+    display: block;
+    padding: 4px;
+    
+  }
+}
+</style>

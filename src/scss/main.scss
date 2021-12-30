@@ -7,6 +7,10 @@ body {
     background-color: var(--background-color);
 }
 
+a {
+    text-decoration: none;
+}
+
 .home {
     @include themify($themes) {
         background-color: themed("primary-color");
@@ -25,6 +29,69 @@ body {
                 height: 20px;
                 margin-right: 5px;
             }
+        }
+    }
+}
+
+header {
+    padding: 12px 0;
+    line-height: 30px;
+    .mainLogo {
+        color: #fff;
+        position: relative;
+        cursor: pointer;
+        strong {
+            position: absolute;
+            left: 12px;
+            bottom: 26px;
+            @include themify($themes) {
+                background-color: themed("primary-color");
+                color: themed("secondary-color");
+            }
+            color: #95df00;
+        }
+        span {
+            font-size: xxx-large;
+        }
+         ::after {
+            @extend .clearfix;
+        }
+    }
+    @include themify($themes) {
+        background-color: themed("primary-color");
+        color: themed("secondary-color");
+    }
+    background-color: #1d4354;
+    color: #fff;
+    .menu {
+        line-height: 22px;
+        .menu-item {
+            display: block;
+            float: left;
+            .router-link-active {
+                color: #95df00 !important;
+                &:hover {
+                    color: #95df00 !important;
+                }
+            }
+            .menu_link {
+                padding: 4px 5px;
+                color: #fff;
+                font-size: 15px;
+                font-weight: 500;
+                @include themify($themes) {
+                    color: themed("secondary-color");
+                }
+                &:hover {
+                    color: #95df00;
+                }
+            }
+            &::after {
+                @extend .clearfix;
+            }
+        }
+        &::after {
+            @extend .clearfix;
         }
     }
 }

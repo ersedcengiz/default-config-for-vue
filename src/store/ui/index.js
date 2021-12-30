@@ -1,8 +1,8 @@
-const colorThemes = ['red', 'blue', 'black', 'green']
+const colorThemes = ['default', 'red', 'blue', 'black', 'green']
 const UIModule = {
     state: () => ({
         themeName: 'tLight',
-        colorTheme: 'theme-red'
+        colorTheme: 'theme-default'
     }),
     mutations: {
         themeLight(state) {
