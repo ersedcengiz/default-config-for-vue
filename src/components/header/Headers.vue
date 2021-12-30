@@ -1,4 +1,6 @@
 <template>
+<div class="row">
+<div class="col-11">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Vbet</a>
@@ -25,6 +27,9 @@
     </div>
   </div>
 </nav>
+</div>
+<div class="col-1"> Merhab</div>
+</div>
 </template>
 
 <script>
@@ -33,9 +38,6 @@ import Lang from './Lang.vue'
 import vColorPlate from './vColorPlate.vue'
 export default {
   name: 'Headers',
-  data() {
-    return { langs: ['tr', 'en'] }
-  },
   components: {
     vSwitch,
     Lang,
