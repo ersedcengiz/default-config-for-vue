@@ -2,6 +2,7 @@
 @import "themes/themes";
 @import "abstracts/mixins";
 @import "abstracts/functions";
+@import "Switch/switch";
 body {
     background-color: var(--background-color);
 }
