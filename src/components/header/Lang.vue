@@ -4,7 +4,7 @@
             <span
                 v-for="lang in langs"
                 :key="lang.sort"
-                v-on:click="changeLang(lang.short)"
+                @click="changeLang(lang.short)"
                 class="langa"
                 ><img
                     :src="lang.img"
